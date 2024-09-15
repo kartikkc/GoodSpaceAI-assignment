@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./components/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Extatica';
+  src: url('./components/fonts/Extatica-Regular.otf');
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(0deg, #F8FAFC 70%, rgba(26, 172, 234, 1) 330%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
